@@ -1,0 +1,16 @@
+{
+  "name": "easy-pad",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "Jiminy Cricket",
+  "license": "MIT",
+  "dependencies": {
+    "eslint": "^3.8.1"
+  },
+  "scripts": {
+    "test": "eslint ./index.js && mocha ./test.js"
+  },
+  "devDependencies": {
+    "mocha": "^3.1.2"
+  }
+}
